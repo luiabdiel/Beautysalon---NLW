@@ -50,15 +50,11 @@ const swiper = new Swiper('.swiper-container', {
 const scrollReveal = ScrollReveal({
   origin: 'top',
   distance: '30px',
-  duration: 600,
-  reset: true
+  duration: 700,
 })
 
 scrollReveal.reveal(
   `#home .image, #home .text, #about .text, #services header, #services .card, #testimonials header, testimonials .testimonials, #contact .text, contact .links, footer .brand, footer .social`,
-  {
-    interval: 100
-  }
 )
 
 // back-to-top
